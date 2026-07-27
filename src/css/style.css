@@ -5,8 +5,8 @@
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 ::selection {
-  background-color: #3f3f46;
-  color: #fafafa;
+  background-color: white;
+  color: black;
 }
 
 .sparkle {
