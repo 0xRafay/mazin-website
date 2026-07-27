@@ -8,6 +8,7 @@
       "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-blue-400: oklch(70.7% 0.165 254.624);
     --color-slate-400: oklch(70.4% 0.04 256.788);
     --color-slate-700: oklch(37.2% 0.044 257.287);
     --color-zinc-400: oklch(70.5% 0.015 286.067);
@@ -199,6 +200,12 @@
   .relative {
     position: relative;
   }
+  .inset-0 {
+    inset: 0px;
+  }
+  .-top-10 {
+    top: calc(var(--spacing) * -10);
+  }
   .bottom-1 {
     bottom: var(--spacing);
   }
@@ -217,11 +224,26 @@
   .left-1\/2 {
     left: calc(1 / 2 * 100%);
   }
+  .z-0 {
+    z-index: 0;
+  }
+  .z-10 {
+    z-index: 10;
+  }
   .m-0 {
     margin: 0px;
   }
   .mx-auto {
     margin-inline: auto;
+  }
+  .-mt-10 {
+    margin-top: calc(var(--spacing) * -10);
+  }
+  .-mt-20 {
+    margin-top: calc(var(--spacing) * -20);
+  }
+  .-mt-40 {
+    margin-top: calc(var(--spacing) * -40);
   }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
@@ -237,6 +259,9 @@
   }
   .mt-70 {
     margin-top: calc(var(--spacing) * 70);
+  }
+  .-mb-4 {
+    margin-bottom: calc(var(--spacing) * -4);
   }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
@@ -274,11 +299,17 @@
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
+  .h-full {
+    height: 100%;
+  }
   .h-screen {
     height: 100vh;
   }
   .w-6 {
     width: calc(var(--spacing) * 6);
+  }
+  .w-full {
+    width: 100%;
   }
   .max-w-4xl {
     max-width: var(--container-4xl);
@@ -335,8 +366,23 @@
   .bg-zinc-950 {
     background-color: var(--color-zinc-950);
   }
+  .object-contain {
+    object-fit: contain;
+  }
+  .object-cover {
+    object-fit: cover;
+  }
+  .object-fill {
+    object-fit: fill;
+  }
+  .object-top {
+    object-position: top;
+  }
   .p-10 {
     padding: calc(var(--spacing) * 10);
+  }
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
   }
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
@@ -346,6 +392,9 @@
   }
   .px-100 {
     padding-inline: calc(var(--spacing) * 100);
+  }
+  .pt-0 {
+    padding-top: 0px;
   }
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);
@@ -367,6 +416,9 @@
   }
   .pr-100 {
     padding-right: calc(var(--spacing) * 100);
+  }
+  .pb-20 {
+    padding-bottom: calc(var(--spacing) * 20);
   }
   .pl-4 {
     padding-left: calc(var(--spacing) * 4);
@@ -452,6 +504,9 @@
     --tw-tracking: var(--tracking-widest);
     letter-spacing: var(--tracking-widest);
   }
+  .text-blue-400 {
+    color: var(--color-blue-400);
+  }
   .text-neutral-500 {
     color: var(--color-neutral-500);
   }
@@ -505,6 +560,15 @@
     transition-timing-function: var(--ease-out);
   }
   @media (width >= 48rem) {
+    .md\:-top-40 {
+      top: calc(var(--spacing) * -40);
+    }
+    .md\:-mt-40 {
+      margin-top: calc(var(--spacing) * -40);
+    }
+    .md\:px-50 {
+      padding-inline: calc(var(--spacing) * 50);
+    }
     .md\:text-xl {
       font-size: var(--text-xl);
       line-height: var(--tw-leading, var(--text-xl--line-height));
