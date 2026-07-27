@@ -2,19 +2,34 @@
 <html lang="en" data-theme="dark" class="dark">
   <head>
     <meta charset="UTF-8" />
-    <title>Hello, world!</title>
+    <title>Into the Unknown</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content="" />
     <link href="./dist/output.css" rel="stylesheet" />
   </head>
 
-  <body class="bg-zinc-950 text-white h-screen grid place-items-center m-0 page-enter">
-    <main
-      class="text-center m-0"
-      tyle="animation: fadein 1s ease-out 0.3s both"
-    >
-      <h1 class="text-3xl font-bold decoration-zinc-600">Hello, World!</h1>
+  <body
+    class="bg-zinc-950 text-white h-screen grid place-items-center m-0 page-enter"
+  >
+    <img
+      src="./img/other.jpg"
+      class="background-container"
+      alt="mazin-pookie"
+    />
+    <div class="background-overlay"></div>
+    <main class="relative m-0">
+      <section
+        class="h-screen grid place-items-center"
+        style="animation: fadein 1s ease-out 0.3s both"
+      >
+        <h1 class="text-3xl font-bold decoration-zinc-600 text-center">
+          Space!
+        </h1>
+      </section>
+      <section class="h-screen"></section>
+      <section class="h-screen"></section>
     </main>
   </body>
+  <script src="./src/scripts/check-img.js"></script>
   <script src="./src/scripts/spawn-sparkle.js"></script>
 </html>
