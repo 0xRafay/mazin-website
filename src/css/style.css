@@ -4,16 +4,6 @@
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
-@keyframes fadeinall {
-  from {
-    opacity: 1;
-    visibility: visible;
-  }
-  to {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
 ::selection {
   background-color: #3f3f46;
   color: #fafafa;
@@ -39,5 +29,20 @@
   100% {
     transform: scale(0) translate(-50%, -150%);
     opacity: 0;
+  }
+}
+
+.page-enter {
+  animation: pageEnter 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes pageEnter {
+  0% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
   }
 }
