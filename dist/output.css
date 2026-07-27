@@ -212,6 +212,12 @@
   .bottom-10 {
     bottom: calc(var(--spacing) * 10);
   }
+  .bottom-20 {
+    bottom: calc(var(--spacing) * 20);
+  }
+  .bottom-30 {
+    bottom: calc(var(--spacing) * 30);
+  }
   .left-1 {
     left: var(--spacing);
   }
@@ -336,14 +342,26 @@
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
   }
+  .pt-15 {
+    padding-top: calc(var(--spacing) * 15);
+  }
   .pr-30 {
     padding-right: calc(var(--spacing) * 30);
+  }
+  .pr-50 {
+    padding-right: calc(var(--spacing) * 50);
+  }
+  .pb-50 {
+    padding-bottom: calc(var(--spacing) * 50);
   }
   .pl-4 {
     padding-left: calc(var(--spacing) * 4);
   }
   .pl-30 {
     padding-left: calc(var(--spacing) * 30);
+  }
+  .pl-50 {
+    padding-left: calc(var(--spacing) * 50);
   }
   .text-center {
     text-align: center;
