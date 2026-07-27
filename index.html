@@ -11,12 +11,32 @@
   <body class="bg-zinc-950 text-white m-0 page-enter">
     <main class="relative m-0">
       <section
-        class="h-screen grid place-items-center"
+        class="relative h-screen grid place-items-center"
         style="animation: fadein 1s ease-out 0.3s both"
       >
         <h1 class="text-3xl font-bold decoration-zinc-600 text-center">
           Space!
         </h1>
+        <div
+          class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/60"
+        >
+          <span class="text-xs font-medium tracking-widest uppercase"
+            >Scroll Down</span
+          >
+          <svg
+            class="w-6 h-6 animate-bounce"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            ></path>
+          </svg>
+        </div>
       </section>
       <section
         class="relative h-screen grid place-items-center overflow-hidden"
