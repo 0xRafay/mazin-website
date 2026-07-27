@@ -206,20 +206,11 @@
   .inset-0 {
     inset: 0px;
   }
-  .-top-10 {
-    top: calc(var(--spacing) * -10);
-  }
   .bottom-1 {
     bottom: var(--spacing);
   }
-  .bottom-5 {
-    bottom: calc(var(--spacing) * 5);
-  }
   .bottom-10 {
     bottom: calc(var(--spacing) * 10);
-  }
-  .bottom-40 {
-    bottom: calc(var(--spacing) * 40);
   }
   .left-1 {
     left: var(--spacing);
@@ -233,20 +224,14 @@
   .z-10 {
     z-index: 10;
   }
+  .z-30 {
+    z-index: 30;
+  }
   .m-0 {
     margin: 0px;
   }
   .mx-auto {
     margin-inline: auto;
-  }
-  .-mt-10 {
-    margin-top: calc(var(--spacing) * -10);
-  }
-  .-mt-20 {
-    margin-top: calc(var(--spacing) * -20);
-  }
-  .-mt-40 {
-    margin-top: calc(var(--spacing) * -40);
   }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
@@ -257,38 +242,8 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
-  .mt-50 {
-    margin-top: calc(var(--spacing) * 50);
-  }
-  .mt-70 {
-    margin-top: calc(var(--spacing) * 70);
-  }
-  .-mb-4 {
-    margin-bottom: calc(var(--spacing) * -4);
-  }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
-  }
-  .ml-0 {
-    margin-left: 0px;
-  }
-  .ml-10 {
-    margin-left: calc(var(--spacing) * 10);
-  }
-  .ml-20 {
-    margin-left: calc(var(--spacing) * 20);
-  }
-  .ml-40 {
-    margin-left: calc(var(--spacing) * 40);
-  }
-  .ml-70 {
-    margin-left: calc(var(--spacing) * 70);
-  }
-  .ml-100 {
-    margin-left: calc(var(--spacing) * 100);
-  }
-  .ml-1000 {
-    margin-left: calc(var(--spacing) * 1000);
   }
   .flex {
     display: flex;
@@ -311,11 +266,11 @@
   .w-6 {
     width: calc(var(--spacing) * 6);
   }
+  .w-100 {
+    width: calc(var(--spacing) * 100);
+  }
   .w-full {
     width: 100%;
-  }
-  .max-w-4xl {
-    max-width: var(--container-4xl);
   }
   .max-w-xl {
     max-width: var(--container-xl);
@@ -369,35 +324,11 @@
   .bg-zinc-950 {
     background-color: var(--color-zinc-950);
   }
-  .object-contain {
-    object-fit: contain;
-  }
   .object-cover {
     object-fit: cover;
   }
-  .object-fill {
-    object-fit: fill;
-  }
-  .object-top {
-    object-position: top;
-  }
-  .p-10 {
-    padding: calc(var(--spacing) * 10);
-  }
-  .px-5 {
-    padding-inline: calc(var(--spacing) * 5);
-  }
-  .px-10 {
-    padding-inline: calc(var(--spacing) * 10);
-  }
   .px-50 {
     padding-inline: calc(var(--spacing) * 50);
-  }
-  .px-100 {
-    padding-inline: calc(var(--spacing) * 100);
-  }
-  .pt-0 {
-    padding-top: 0px;
   }
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);
@@ -405,47 +336,17 @@
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
   }
-  .pt-20 {
-    padding-top: calc(var(--spacing) * 20);
-  }
-  .pr-10 {
-    padding-right: calc(var(--spacing) * 10);
-  }
   .pr-30 {
     padding-right: calc(var(--spacing) * 30);
-  }
-  .pr-50 {
-    padding-right: calc(var(--spacing) * 50);
-  }
-  .pr-100 {
-    padding-right: calc(var(--spacing) * 100);
-  }
-  .pb-20 {
-    padding-bottom: calc(var(--spacing) * 20);
   }
   .pl-4 {
     padding-left: calc(var(--spacing) * 4);
   }
-  .pl-10 {
-    padding-left: calc(var(--spacing) * 10);
-  }
   .pl-30 {
     padding-left: calc(var(--spacing) * 30);
   }
-  .pl-50 {
-    padding-left: calc(var(--spacing) * 50);
-  }
-  .pl-60 {
-    padding-left: calc(var(--spacing) * 60);
-  }
-  .pl-100 {
-    padding-left: calc(var(--spacing) * 100);
-  }
   .text-center {
     text-align: center;
-  }
-  .text-left {
-    text-align: left;
   }
   .text-6xl {
     font-size: var(--text-6xl);
@@ -467,29 +368,9 @@
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
-  .leading-\[2\.5\] {
-    --tw-leading: 2.5;
-    line-height: 2.5;
-  }
   .leading-\[3\] {
     --tw-leading: 3;
     line-height: 3;
-  }
-  .leading-\[20\] {
-    --tw-leading: 20;
-    line-height: 20;
-  }
-  .leading-\[100\] {
-    --tw-leading: 100;
-    line-height: 100;
-  }
-  .leading-loose {
-    --tw-leading: var(--leading-loose);
-    line-height: var(--leading-loose);
-  }
-  .leading-relaxed {
-    --tw-leading: var(--leading-relaxed);
-    line-height: var(--leading-relaxed);
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -498,10 +379,6 @@
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
-  }
-  .font-semibold {
-    --tw-font-weight: var(--font-weight-semibold);
-    font-weight: var(--font-weight-semibold);
   }
   .tracking-widest {
     --tw-tracking: var(--tracking-widest);
@@ -512,24 +389,6 @@
   }
   .text-blue-300 {
     color: var(--color-blue-300);
-  }
-  .text-blue-400 {
-    color: var(--color-blue-400);
-  }
-  .text-blue-700 {
-    color: var(--color-blue-700);
-  }
-  .text-neutral-500 {
-    color: var(--color-neutral-500);
-  }
-  .text-slate-400 {
-    color: var(--color-slate-400);
-  }
-  .text-slate-700 {
-    color: var(--color-slate-700);
-  }
-  .text-stone-50 {
-    color: var(--color-stone-50);
   }
   .text-white {
     color: var(--color-white);
@@ -565,11 +424,6 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
-  .drop-shadow-\[0_2\] {
-    --tw-drop-shadow-size: drop-shadow(0 2 var(--tw-drop-shadow-color, currentcolor));
-    --tw-drop-shadow: var(--tw-drop-shadow-size);
-    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
-  }
   .drop-shadow-\[0_2px_8px_rgba\(0\,0\,0\,0\.8\)\] {
     --tw-drop-shadow-size: drop-shadow(0 2px 8px var(--tw-drop-shadow-color, rgba(0,0,0,0.8)));
     --tw-drop-shadow: var(--tw-drop-shadow-size);
@@ -588,15 +442,6 @@
     transition-timing-function: var(--ease-out);
   }
   @media (width >= 48rem) {
-    .md\:-top-40 {
-      top: calc(var(--spacing) * -40);
-    }
-    .md\:-mt-40 {
-      margin-top: calc(var(--spacing) * -40);
-    }
-    .md\:px-50 {
-      padding-inline: calc(var(--spacing) * 50);
-    }
     .md\:text-xl {
       font-size: var(--text-xl);
       line-height: var(--tw-leading, var(--text-xl--line-height));
