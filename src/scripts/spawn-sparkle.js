@@ -14,7 +14,7 @@ for (let i = 0; i < SPARKLE_COUNT; i++) {
     sparkle.style.opacity = "0";
   });
 
-  document.body.appendChild(sparkle);
+  document.documentElement.appendChild(sparkle);
   sparkles.push(sparkle);
 }
 
