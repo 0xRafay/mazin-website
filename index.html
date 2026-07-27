@@ -8,15 +8,7 @@
     <link href="./dist/output.css" rel="stylesheet" />
   </head>
 
-  <body
-    class="bg-zinc-950 text-white h-screen grid place-items-center m-0 page-enter"
-  >
-    <img
-      src="./img/other.jpg"
-      class="background-container"
-      alt="mazin-pookie"
-    />
-    <div class="background-overlay"></div>
+  <body class="bg-zinc-950 text-white m-0 page-enter">
     <main class="relative m-0">
       <section
         class="h-screen grid place-items-center"
@@ -26,7 +18,16 @@
           Space!
         </h1>
       </section>
-      <section class="h-screen"></section>
+      <section
+        class="relative h-screen grid place-items-center overflow-hidden"
+      >
+        <div class="background-overlay"></div>
+        <img
+          src="./img/other.jpg"
+          class="background-container"
+          alt="mazin-pookie"
+        />
+      </section>
       <section class="h-screen"></section>
     </main>
   </body>
