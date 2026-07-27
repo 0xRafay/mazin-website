@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@keyframes fadeinall {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
