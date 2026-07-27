@@ -55,6 +55,21 @@
   object-fit: cover;
   opacity: 0;
   transition: opacity 1.2s ease-in-out;
+
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 45%,
+    black 85%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 45%,
+    black 85%,
+    transparent 100%
+  );
 }
 
 .background-container.loaded {
