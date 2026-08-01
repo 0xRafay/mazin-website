@@ -384,6 +384,10 @@
     --tw-ease: var(--ease-out);
     transition-timing-function: var(--ease-out);
   }
+  .select-none {
+    -webkit-user-select: none;
+    user-select: none;
+  }
   @media (width >= 48rem) {
     .md\:text-xl {
       font-size: var(--text-xl);
